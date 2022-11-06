@@ -326,7 +326,6 @@ removeSongDropdown = settingsSection:Dropdown("Song to Remove", removeList,"",""
   config.songToRemove = t
 end)
 
-
 settingsSection:Button("Remove Song", function()
 
     for i,v in pairs(songs) do
